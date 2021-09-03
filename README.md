@@ -21,6 +21,8 @@ We trained 4 models*, 2 classification and 2 regression;
 + MRI Brain slice index Regression
 + MRI Brain image Context Regression
 
+*These Convolution (CNN) Models were created using TensorFlow and Keras’ Libraries.
+
 # Brain Direction Classification
 
 + The first model learned a simple classification problem. A model was trained using Sagittal, Coronal and Axial Images, and to classify those out-of-sample.

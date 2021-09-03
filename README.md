@@ -32,8 +32,8 @@ We trained 4 models*, 2 classification and 2 regression;
 
 # Brain Rotation Classification
 
-+The second model learned the angle of the brain image was visualized in.
-+Pre-processing involved manually rotating images and saving into directories.
++ The second model learned the angle of the brain image was visualized in.
++ Pre-processing involved manually rotating images and saving into directories.
 
 ![image](https://user-images.githubusercontent.com/57076065/132038699-3cc12cb5-c032-427a-b17a-468af6ef28cc.png)
 

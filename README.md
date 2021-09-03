@@ -6,7 +6,7 @@ Emma Baskerville & Oakleigh Weekes
 
 + BraTS 2018 is a dataset which provides multimodal 3D brain MRIs and ground truth brain tumor segmentations annotated by physicians, consisting of 4 MRI modalities per case (T1, T1c, T2, and FLAIR). (Bjoern H. Menze et al)
 
-+ Within each modality, or “channel”, the structure becomes an array of size [i,:,:]. The channel refers to the receiver pathway of the MRI system. They show as different contrasts. These can be accessed using the NiBabel Python toolset.
++ Within each modality, or “channel”, the structure becomes an array of size [:,:,:] (Sagittal:Coronal: Axial) . The channel refers to the receiver pathway of the MRI system. They show as different contrasts. These can be accessed using the NiBabel Python toolset.
 
 * “Flair” Channel was used as it shows the brain images in clear contrast.
 ![image](https://user-images.githubusercontent.com/57076065/132038365-18ca18eb-b4f3-4c43-822d-660e44f35574.png)
